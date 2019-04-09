@@ -26,7 +26,7 @@ dim(testing)
 summary(training)
 summary(testing)
 str(training)
-str(testing)
+str(testing) 
 
 # Delete columns with all missing values 
 training <- training[,colSums(is.na(training)) == 0]
