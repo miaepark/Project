@@ -18,7 +18,7 @@ The expected out-of-sample error will corresond to 1 - accuracy in the cross val
 
 Our outcome variable is a factor variable. We split the training dataset into TrainTrainingSet and TestTrainingSet dataset.
 
-```{r}
+```{r} 
 # Basic Explanatory Analysis
 set.seed(1234)
 dim(training)
