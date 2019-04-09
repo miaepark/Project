@@ -35,7 +35,7 @@ testing <- testing[,colSums(is.na(testing)) == 0]
 # Delete irrelevant variables to our current project
 training <- training[,-c(2:7)]
 testing <- testing[,-c(2:7)]
-
+ 
 # Partition the data so that 75% of the training dataset into training and the remaining 25% to testing 
 library(caret)
 traintrainset <- createDataPartition(y=training$classe, p=0.75, list=FALSE)
